@@ -1,0 +1,35 @@
+import java.util.*;
+
+class Demo{
+
+	static int countFactor(int x){
+        if(x<=0){
+        System.out.println("Plaese Enter Positive Number or grater than 0 ");
+ return 0;
+        }
+
+	int count=0;
+	for(int i=1;i<=x;i++){
+	
+		if(x%i==0){
+          		count++;
+	}
+	}
+        if(x==1){
+        System.out.println("Number is not Prime nor Composite");
+
+        }else if(count ==2){
+	  System.out.println("Number is Prime Number");
+	}else {
+          System.out.println("Number is Composite Number");
+        }
+return 0;
+	}
+	public static void main(String[]  args){
+	Scanner sc = new Scanner(System.in);
+			System.out.println("Enter Number");
+			int num = sc.nextInt();
+
+	         	System.out.println(countFactor(num));
+	}
+}
