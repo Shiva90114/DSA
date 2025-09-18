@@ -1,6 +1,6 @@
 import java.util.*;
 
-class Demo{
+class SquareRoot{
 
 	static int  digit(double x){
 	double r = Math.sqrt(x);

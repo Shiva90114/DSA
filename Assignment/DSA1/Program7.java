@@ -1,6 +1,6 @@
 import java.util.*;
 
-class Demo{
+class PerfectNumber{
 
 	static int  digit(int num){
 	int sum =0;

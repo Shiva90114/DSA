@@ -1,27 +1,27 @@
 import java.util.*;
 
-class Demo{
+class OddEven{
 
 	static int  digit(int x){
 	
         String str = String.valueOf(x);
 
-	System.out.println("Odd Digit Number ");
+	System.out.println("Even Digit and Square of Odd Digit Number  ");
 	for(int i =0;i<str.length();i++){
 	int d = Character.getNumericValue(str.charAt(i));
 
 		if(d%2!=0){
-                         System.out.println(d*d);
+                         System.out.print(d*d);
                 
                 }
 		else{
 		
-			System.out.println(d);
+			System.out.print(d);
 		}
         
         }
 
-        
+        System.out.println();        
         return 0;	
 	}
 

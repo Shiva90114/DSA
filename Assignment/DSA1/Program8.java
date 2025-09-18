@@ -1,6 +1,6 @@
 import java.util.*;
 
-class Demo{
+class Fibonacci{
 
 	static int  digit(int num){
 	int first =0,second = 1;

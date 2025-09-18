@@ -1,14 +1,14 @@
 import java.util.*;
 
-class Demo{
+class NumReverse{
 
 	static int digit(int x){
 	String str = String.valueOf(x);
-	System.out.println("Digit of "+x+" : ");
+	System.out.println("Reverse the "+x+" is : ");
 	
 	for(int i =str.length()-1;i>=0;i--){
 	
-		System.out.println(str.charAt(i));
+		System.out.print(str.charAt(i));
 	}
         return 0;	
 	}
@@ -19,7 +19,7 @@ class Demo{
 	System.out.println("Enter Number : ");
 	int num = sc.nextInt();
 
-	System.out.println(digit(num));
+	digit(num);
 
 	}
 }
