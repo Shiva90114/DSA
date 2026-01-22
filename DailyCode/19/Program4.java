@@ -62,7 +62,7 @@ class Stack {
 	void printStack() {
        
 		if(empty()) {
-		System.out.print("Stack is Empty");
+		System.out.println("Stack is Empty");
 		return;
 		}
 		Node temp = top;
@@ -76,7 +76,7 @@ class Stack {
 		System.out.print(temp.data+"]");
 
 
-	
+	System.out.println();
 }
 }
 
@@ -158,6 +158,7 @@ class Client {
                                 }
 
 			}
+		
 			 System.out.println("Do you Want to continue ?");
 			 ch = sc.next().charAt(0);
 		}while(ch == 'y' || ch == 'Y');
